@@ -6,3 +6,8 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+for (let index = 0; index < people.length; index++) {
+  const element = people[index].name;
+  console.log(element);
+}
