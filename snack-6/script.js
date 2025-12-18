@@ -30,3 +30,15 @@ for (let index = 0; index < zucchine.length; index++) {
 
 console.log('Zucchine lunghe:', zucchineLunghe);
 console.log('Zucchine corte:', zucchineCorte);
+
+// Metodo filter
+
+const zucchineLungheFilter = zucchine.filter(z => z.length >= 15);
+
+const zucchineCorteFilter = zucchine.filter(z => z.length < 15);
+
+console.log(zucchineLungheFilter);
+
+console.log(zucchineCorteFilter);
+
+
