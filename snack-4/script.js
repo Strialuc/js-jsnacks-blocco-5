@@ -7,3 +7,16 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+
+const nuovoArray = [];
+
+for (let index = 0; index < posts.length; index++) {
+
+  const element = posts[index].author;
+
+  nuovoArray.push(element);
+  
+}
+
+console.log(nuovoArray);
