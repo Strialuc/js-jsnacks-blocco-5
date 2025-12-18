@@ -3,6 +3,9 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Crea un nuovo array in cui tutti i numeri siano incrementati di 1
 // Risultato: [3, 9, 5, 8, 3, 88]
 
+
+// Ciclo for classico
+
 const nuovoArray=[];
 
 for (let index = 0; index < numbers.length; index++) {
@@ -14,5 +17,12 @@ for (let index = 0; index < numbers.length; index++) {
 }
 
  console.log(nuovoArray);
+
+ 
+// Metodo array Map
+
+const nuovoArrayMetodoMap = numbers.map(num => num + 1);
+
+console.log(nuovoArrayMetodoMap);
 
 

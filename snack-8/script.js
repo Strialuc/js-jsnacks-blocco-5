@@ -22,6 +22,7 @@ const students = [
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
 
+// Ciclo for classico
 
 for (let index = 0; index < students.length; index++) {
 

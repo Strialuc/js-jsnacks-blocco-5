@@ -13,6 +13,7 @@ const zucchine = [
 
 // A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm. L'altro con le restanti.
 
+// Ciclo for classico
 
 const zucchineLunghe = [];
 const zucchineCorte = [];

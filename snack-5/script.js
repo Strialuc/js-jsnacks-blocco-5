@@ -4,6 +4,9 @@ const nums = [2, 8, 4, 7, 12, 87];
 // Risultato: [2, 8, 4, 12]
 
 
+
+// Ciclo for classico
+
 const numsPari = [];
 
 for (let index = 0; index < nums.length; index++) {
