@@ -7,7 +7,22 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+
+// Ciclo for classico
+
 for (let index = 0; index < people.length; index++) {
   const element = people[index].name;
   console.log(element);
-}
+};
+
+
+
+// Metodo array for each
+
+people.forEach(person => {
+  console.log(person.name);
+});
+
+
+
+
