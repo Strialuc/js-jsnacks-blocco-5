@@ -21,3 +21,15 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+
+for (let index = 0; index < students.length; index++) {
+
+  if (students[index].name === "Marco Lanci") {
+    
+  console.log(students[index].class);
+  
+  }
+
+  
+};
