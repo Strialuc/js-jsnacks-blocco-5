@@ -21,3 +21,9 @@ for (let index = 0; index < posts.length; index++) {
 }
 
 console.log(nuovoArray);
+
+// Metodo array Map
+
+const autori = posts.map(post => post.author);
+
+console.log(autori);
