@@ -21,3 +21,10 @@ for (let index = 0; index < nums.length; index++) {
 };
 
 console.log(numsPari);
+
+
+// Metodo Filter
+
+const numsPariMetodoFilter = nums.filter(num => num % 2 === 0);
+
+console.log(numsPariMetodoFilter);
