@@ -34,3 +34,11 @@ for (let index = 0; index < students.length; index++) {
 
   
 };
+
+// Metodo find 
+
+const classeMarco = students.find(
+  student => student.name === 'Marco Lanci'
+).class;
+
+console.log(classeMarco);

@@ -35,3 +35,9 @@ for (let index = 0; index < students.length; index++) {
   
   
 };
+
+// Metodo find
+
+const studenteMetodoFind = students.find(student => student.id === 2);
+
+console.log(studenteMetodoFind);
