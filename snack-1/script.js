@@ -6,4 +6,6 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 
 // stampo l'array in console
 
-console.log(names);
+
+names.forEach((element) => {console.log(element)});
+
